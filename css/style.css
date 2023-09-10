@@ -1,0 +1,274 @@
+body {
+    margin: 0;
+    background-color: #0F4C75;
+}
+
+h1, h2, h3 {
+    margin: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+}
+
+nav {
+    background-color: white;
+    display: flex;
+    font-size: 19pt;
+    justify-content: right;
+}
+
+nav a {
+   padding: 6px;
+   border-radius: 15px;
+   color: #0F4C75;
+   font-family: 'Barlow', sans-serif;
+}
+
+nav a:hover {
+    color: white;
+    background-color: #0F4C75;
+    box-shadow: 0 3px 7px 0 rgba(0, 0, 0, .13), 0 1px 2px 0 rgba(0, 0, 0, .11);
+}  
+
+nav p {
+    margin: 16px;
+}
+
+nav img {
+    position: absolute;
+    left: 11px;
+    top: 5px;
+}
+
+.heading {
+    background-color:#0F4C75;
+    display: flex;
+    padding: 80px 50px 50px 50px;
+    
+    flex-direction: row;
+    justify-content: center;
+   
+}
+
+.heading h1 {
+    color: white;
+    font-family: 'Lobster Two', cursive;
+    font-size: 55pt;
+    margin: 10px 10px 0 10px;
+}
+
+.heading h2 {
+    color: #BBE1FA;
+    font-family: 'Barlow', sans-serif;
+    margin: 10px;
+    font-size: 23pt;
+}
+
+.tuxedoSamSailing {
+    position: absolute;
+    top: 345px;
+    left: 665px;
+}
+
+.tuxedoSamSleeping {
+     position: absolute;
+     top: 338px;
+     left: 835px;
+   
+}
+
+.headshot img {
+    margin-right: 30px;
+    margin-top: 15px;
+    border-radius: 50%;
+    border:white solid 6px;
+}
+
+.headingItem {
+    flex-direction: column;
+}
+
+.bio {
+    background-color: #0F4C75;
+    text-align: center;
+    padding: 30px;
+}
+
+hr {
+    padding: 0;
+    border: 1px solid white;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 43%;
+}
+
+.bio h2 {
+    font-family: 'Lobster Two', cursive;
+    color: white;
+    font-size: 40pt;
+    margin: 30px 10px 5px 10px;
+}
+
+.bio p {
+    font-family: 'Barlow', sans-serif;
+    color: white;
+    font-size: 20pt;
+    margin: 0 10px 35px 10px;
+}
+
+.aboutAmy  {
+    display: flex;
+    justify-content: center;
+    background: #0F4C75;
+    color: white;
+    font-family: 'Lobster Two', cursive;
+    padding: 0 30px 30px 30px;
+}
+
+.aboutAmy h2 {
+    color: white;
+    font-family: 'Lobster Two', cursive;
+    font-size: 40pt;
+    margin: 30px 30px 5px 30px;
+}
+
+input[type="submit"] {
+    font-family: 'Barlow', sans-serif;
+    font-size: 15pt;
+    background-color: #0F4C75;;
+    color: white;
+    border-radius: 10px;
+    padding: 8px 20px 8px 20px;
+    border: none;
+}
+
+input[type="submit"]:hover {
+    box-shadow: 0px 25px 80px rgba(0, 0, 0, 0.15);
+    transform: scale(1.03);
+}
+
+
+.three-col {
+    display: grid;
+    grid-template-columns: 0.5fr 0.75fr 0.5fr;
+    gap: 20px;
+    background-color: #0F4C75;
+    text-align: center;
+}
+
+.three-col h3 {
+    font-family: 'Lobster Two', cursive;
+    font-size: 25pt;
+}
+
+.card {
+    background-color: white;
+    color: #1B262C;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 0 40px 40px 40px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Barlow', sans-serif;
+    font-size: 15pt;
+}
+
+.card ul {
+    padding: 0;
+}
+
+.card dd {
+    margin: 0;
+}
+
+.card h3 {
+    align-items: center;
+}
+
+.card li {
+    text-decoration: none;
+}
+
+.contactInfo {
+    text-align: center;
+}
+.contactInfo h1 {
+    font-family: 'Lobster Two', cursive;
+    color: white;
+    font-size: 55pt;
+    margin: 30px 10px 10px 10px;
+}
+
+.contactInfo p {
+    font-family: 'Barlow', sans-serif;
+    color: #A0C3D2;
+    font-size: 20pt;
+    margin: 0 10px 20px 10px;
+}
+
+footer {
+    font-family: 'Barlow', sans-serif;
+    padding: 15px;
+    background-color: #F9F5F6;
+    display: flex;
+    justify-content: center;
+    color: #A0C3D2;
+    font-size: 15pt;
+}
+
+footer a {
+    padding: 7px;
+    border-radius: 10px;
+    color: #0F4C75;
+}
+
+footer a:hover {
+    color: white;
+    background-color: #0F4C75;
+    box-shadow: 0 3px 7px 0 rgba(0, 0, 0, .13), 0 1px 2px 0 rgba(0, 0, 0, .11);
+}
+
+.one-col {
+    display: flex;
+    justify-content: center;
+    background-color: #0F4C75;
+    padding: 30px 90px 10px 90px;
+    text-align: center;
+}
+
+.one-col label {
+    font-family: 'Barlow', sans-serif;
+    color: #1B262C;
+    font-size: 20pt;
+    margin: 0 0 20px 0;
+}
+
+#name, #message, #email {
+    font-size: 13pt;
+    font-family: 'Barlow', sans-serif;
+    padding: 5px;
+    margin-bottom: 8px;
+    width: 200px;
+}
+
+#message {
+    height: 100px;
+}
+
+.index .card:hover{
+    box-shadow: 0 3px 7px 0 rgba(0, 0, 0, .13), 0 1px 2px 0 rgba(0, 0, 0, .11);
+    transform: scale(1.01);
+  }
+
